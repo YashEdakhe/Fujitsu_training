@@ -1,7 +1,11 @@
-
-public class Addition {
-		public int addition(int a,int b)
+class Addition
+{
+	int display(int a,int b)
+		{
+		return a + b;
+		}
+public static void main(String args[])
 	{
-		return a+b;
+	Addition add = new Addition();
 	}
 }
